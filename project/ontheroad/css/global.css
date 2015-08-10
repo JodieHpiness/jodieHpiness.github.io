@@ -48,6 +48,27 @@ audio {
   height: 0px;
   line-height: 0px;
 }
+#loading-panel {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #252525;
+}
+#loading-panel .boy {
+}
+#loading-panel.active {
+  display: block;
+}
+#loading-panel p {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  top: 15rem;
+  color: #ffffff;
+  font-size: .6rem;
+  line-height: 1rem;
+}
 .boy-panel {
   position: absolute;
   z-index: 10;
@@ -1825,27 +1846,4 @@ audio {
   background: url(../images/dialog.png) no-repeat;
   background-position: 0rem -6.9rem;
   background-size: 11.6rem auto;
-}
-#loading-panel {
-  display: none;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #252525;
-}
-#loading-panel .boy {
-
-  /*top: 10.2rem;*/
-}
-#loading-panel.active {
-  display: block;
-}
-#loading-panel p {
-  position: relative;
-  width: 100%;
-  text-align: center;
-  top: 15rem;
-  color: #ffffff;
-  font-size: .6rem;
-  line-height: 1rem;
 }
