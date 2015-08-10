@@ -1198,10 +1198,10 @@ audio {
 .mark.active {
   display: block;
 }
-.share-panel {
+#share-panel {
   
 }
-.share-panel .story-box{
+#share-panel .story-box{
   position: absolute;
   right: 0;
   width: 12.8rem;
